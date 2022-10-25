@@ -125,6 +125,7 @@ public class playerScript : MonoBehaviour
         {
             loseTextObject.SetActive(true);
             speed = 0;
+            anim.SetInteger("State", 3);
         }
     }
     void OnTriggerEnter2D(Collider2D other) 
